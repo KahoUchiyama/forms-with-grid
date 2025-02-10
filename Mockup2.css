@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    background-color: #BFD8D5;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+    margin: 0;
+}
+
+/* メインのコンテナ */
+.container {
+    display: grid;
+    height: 600px;
+    width: 1200px;
+    background-color: #F7F5F2;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* 画像セクション */
+.image-section img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    display: grid;
+    grid-column: 1/2;
+}
+
+/* フォームのスタイル */
+.form-section {
+    padding: 10px;
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+h2 {
+    display: block;
+    font-size: 40px;
+    color: #1D1D42;
+    height: 10px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* ボタンのデザイン */
+button {
+    background-color: #1D1D42;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #111130;
+}
+
+/* テキスト情報 */
+.info {   
+    display: grid;
+    grid-column: 3/4;
+    margin-top: 200px;
+    font-size: 14px;
+    color: #333;
+}
+
+.info strong {
+    color: #1D1D42;
+}
+
+.social-icons {
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 214px;
+    height: auto;
+}
